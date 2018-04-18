@@ -5,7 +5,7 @@ const User = require('../models/user');
 
 
 
-//const db = "mongodb://deeptiii:deeptiii@ds050739.mlab.com:50739/users";
+const db = "mongodb://deeptiii:deeptiii@ds050739.mlab.com:50739/users";
 mongoose.Promise = global.Promise;
 mongoose.connect(db, function(err){
     if(err){
