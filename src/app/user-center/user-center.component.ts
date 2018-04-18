@@ -18,7 +18,7 @@ export class UserCenterComponent implements OnInit {
 
   selectedUser: User;
   model: User = new User;
-  private hideNewUser = true;
+  hideNewUser = true;
 
   constructor(private _dataService: DataService) { }
 
